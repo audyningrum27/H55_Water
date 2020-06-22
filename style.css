@@ -1,0 +1,381 @@
+html, body,
+ul, ol, li,
+h1, h2, h3, h4, h5, h6, p, div {
+  margin: 0;
+  padding: 0;
+}
+
+a {
+	text-decoration: none;
+    color: inherit;
+}
+
+li {
+	list-style: none;
+}
+
+body {
+	font-family: 'Roboto', sans-serif;
+}
+
+/* css header*/
+
+.header-image {
+	width: 100%;
+    max-height: 300px;
+    object-fit: cover;
+    object-position:center;
+}
+
+header {
+	height: 300px;
+	width: 100%;
+	background-color: rgba(162, 213, 242, 1.0);
+	color: #07689f;
+}
+
+.nav {
+	width: 100%;
+    height: 60px;
+
+    background-color:rgba(162, 213, 242, 1.0);
+    z-index: 50;
+    top: 300px;
+
+}
+
+.nav span {
+    display: none;
+    color: #07689f;
+    float: right;
+    margin: 14px 30px 14px 30px;
+}
+
+.sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+.logo {
+	font-family: 'Sacramento', cursive;
+    font-weight: bold;
+    font-size: 45px;
+    float: left;
+    margin: 0 100px;
+    padding: 3px 20px;
+    cursor: pointer;
+}
+
+.header-left a {
+	line-height: 60px;
+	float: left;
+	padding: 0 20px;
+	cursor: pointer;
+	display: inline-block;
+	transition: all 0.5s;
+	text-align: center;
+}
+
+.header-left a:hover {
+	background-color: rgba(255, 126, 103, 0.5)
+}
+
+.login {
+	line-height: 60px;
+	float: right;
+	cursor: pointer;
+	margin: 0 100px;
+	padding: 0 20px;
+	cursor: pointer;
+	display: block;
+	transition: all 0.5s;
+}
+
+.login:hover {
+	background-color: rgba(255, 126, 103, 0.5)
+}
+
+/* css header*/
+
+/* css bagian 1 */
+.bagian1 {
+    height: 1350px
+}
+
+.banner {
+    margin:75px 100px 75px 100px;
+    padding: 55px 0 55px 0;
+    background-image: url(https://marketplace.canva.com/EADajgs0DrU/1/0/1600w/canva-ocean-water-waves-canva-banner-rxrpEBlzRhQ.jpg);
+    background-size: cover;
+    /* animation */
+    position: relative;
+    animation-name: banner;
+    animation-duration: 3s;  
+    animation-fill-mode: forwards;
+}
+
+@keyframes banner {
+  from {top: 0px;}
+  to {top: 45px;}
+}
+
+
+.banner h1 {
+    width: 100%;
+    text-align: center;
+    opacity: 0.7;
+    color: white;
+    font-size: 60px;
+    letter-spacing: 15px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.h19 {
+    padding-bottom: 25px;
+}
+
+.isi {
+    margin:125px 100px 100px 100px;
+}
+
+.judul {
+    margin-top: 50px;
+    margin-bottom: 30px;
+}
+
+.judul h2 {
+    font-weight: bold;
+    font-size: 50px;
+    font-style: italic;
+}
+
+.h20 {
+    font-family: 'Sacramento', cursive;
+    border-left: 5px solid #ff7e67;
+    border-top: 5px solid #ff7e67;
+    padding: 10px 10px 0 10px;
+    color:#07689f;
+}
+
+.h21 {
+    color: #ff7e67;
+    letter-spacing: 5px
+}
+
+.perkenalan {
+    margin-bottom: 75px;
+    display: flex;
+}
+
+.perkenalan img {
+    width: 50%;
+}
+
+.perkenalan p {
+    font-size: 20px;
+    width: 50%;
+    padding-right: 50px;
+}
+
+.catatan {
+    text-align: justify;
+    width: 50%;
+    line-height:200%;
+}
+
+.contents {
+    margin-top: 100px;
+    display: flex;
+}
+
+.content {
+    flex: 1;
+    padding-top: 35px;
+    border-top: 2px solid #07689f;
+
+    width: 33%;
+    position: relative;
+    text-align: center;
+}
+
+.content img {
+    max-height: 170px;
+}
+
+.content p {
+    width: 75%;
+    display: inline-block;
+    padding-top: 10px;
+    color: #07689f;
+    opacity: 0.7;
+}
+/* css bagian 1*/
+
+/* css bagian 2*/
+.bagian2 {
+    margin: 0 100px 100px 100px;
+    text-align: center;
+}
+
+.ilustrasi {
+    display: flex;
+}
+
+.first-icon {
+    position: relative;
+    flex: 1;
+    width: 33%;
+    padding-bottom: 35px;
+    border-bottom: 2px solid #07689f;
+    margin-bottom: 100px;
+}
+
+.first-icon img {
+    height: 150px;
+    width: 150px;
+}
+
+.first-icon h3 {
+    font-weight: bold;
+    font-style: italic;
+}
+
+.first-icon p {
+    color: #ff7e67;
+}
+
+.galeri {
+    margin-bottom: 75px;
+    height: 1025px;
+}
+
+.galeri h2 {
+    padding-bottom: 50px;
+    font-family: 'Sacramento', cursive;
+    font-weight: normal;
+    font-size:200%;
+}
+
+.ig-pict {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.second-icon {
+    position: relative;
+    flex: auto;
+    display: inline-block;
+    width: 25%;
+    padding-bottom: 50px;
+}
+
+.second-icon img {
+    height: 250px;
+    width: 250px;
+    border-radius: 10px;
+}
+
+.text {
+    display: inline-block;
+    margin-top: 5px;
+    font-size: 18px;
+    font-style: italic;
+}
+
+.text span {
+    border-bottom: 1px solid #ff7e67;
+    color: #07689f;
+}
+
+.second-icon:hover {
+    -ms-transform: scale(1.2); /* IE 9 */
+    -webkit-transform: scale(1.2); /* Safari 3-8 */
+    transform: scale(1.2);
+}
+/* css bagian 2 */
+
+/* profile */
+.profile {
+    margin: 35px 100px 75px 100px;
+    text-align: center;
+    padding: 15px;
+    border: 2px solid #ff7e67;
+    border-radius: 20px;
+    background-color: #f4f6f8;
+}
+
+.profile-judul h2 {
+    width: 200px;
+    display: inline-block;
+    padding-bottom: 5px;
+    border-bottom: 2px solid #a2d5f2;
+    font-family: 'Sacramento', cursive;
+    font-weight: normal;
+    font-size:200%;
+}
+
+.anggota {
+    display: inline-block;
+    padding: 25px 50px 15px 50px;
+}
+
+.anggota img {
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    padding-bottom: 10px;
+}
+
+.anggota p {
+    padding-bottom: 15px;
+}
+
+.anggota a {
+    display: inline-block;
+    color: #07689f;
+    background-color: #ff7e67;
+    padding: 5px 10px;
+    box-shadow: 0 7px #cc6452;
+    opacity: 0.8;
+    border-radius: 5px;
+}
+
+.anggota a:active {
+  box-shadow:none;
+  position:relative;
+  top:7px;
+}
+
+.anggota a:hover {
+    opacity: 1;
+}
+
+.fa {
+    padding-right: 5px;
+}
+/* profile */
+
+/* css footer */
+footer {
+    background-color: #07689f;
+    height:50px;
+    padding:20px 100px;
+    color:#fafafa;
+}
+
+.copyright {
+    display: inline-block;
+    float: left;
+    padding: 15px 0 15px 0;
+}
+
+.source {
+    padding: 15px 0 15px 0;
+    float: right;
+}
+
+.source i {
+    padding-right: 5px;
+    padding-left: 5px;
+}

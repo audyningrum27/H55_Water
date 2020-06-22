@@ -1,0 +1,209 @@
+@media (max-width: 1280px) {
+
+}
+
+@media (max-width: 1024) {
+
+}
+
+@media (max-width: 767px) {
+
+}
+
+@media (max-width: 480px) {
+	header {
+		height: 90px;
+	}
+
+	.header-image {
+		max-height: 90px;
+	}
+
+	.nav {
+		height: 45px;
+		top: 90px;
+	}
+
+	.header-left li {
+		display:none;
+	}
+
+  	.login {
+  		display: none;
+  	}
+
+	.nav span {
+		display:block;
+  	}
+
+  	.sticky {
+	 	position: fixed;
+	  	top: 0;
+  		width: 100%;
+	}
+
+  	.logo {
+  		font-size: 35px;
+  		margin: 2px 30px 0 30px;
+  		padding: 0 0 0 0;
+  	}
+
+  	.bagian1 {
+  		height: 1875px;
+  	}
+
+  	.banner {
+  		margin: 0 30px 0 30px;
+  		padding: -10px 0 10px 0;
+  	}
+
+  	@keyframes banner {
+  		from {top: 50px;}
+  		to {top: 85px;}
+  	}
+
+  	.banner h1{
+  		letter-spacing: 7px;
+  		font-size: 30px;
+  		text-align: center;
+  		width: 100%
+  	}
+
+  	.h19 {
+  		display: flex;
+  		flex-wrap: wrap;
+  		align-items: center;
+  		justify-content: center;
+  		width: 100%;
+  	}
+
+  	.isi {
+  		margin: 130px 30px 100px 30px;
+  	}
+
+  	.judul {
+  		margin-top: 50px;
+  		margin-bottom: 30px
+  	}
+
+  	.judul h2 {
+  		font-size: 25px;
+  	}
+
+  	.h20 {
+  		border-left: 3px solid #ff7e67;
+    	border-top: 3px solid #ff7e67;
+  	}
+
+  	.perkenalan {
+  		flex-direction: column;
+  	}
+
+  	.perkenalan img {
+  		width: 100%;
+  	}
+
+  	.perkenalan p {
+  		width:100%;
+  		font-size: 16px;
+  		padding-bottom: 33px;
+  	}
+
+  	.catatan {
+  		line-height: 25px;
+  	}
+
+  	.contents {
+  		flex-direction: column;
+  	}
+
+  	.content {
+  		width: 100%;
+  	}
+
+  	.content-2 {
+  		border-style: none;
+  	}
+
+  	.content-3 {
+  		border-style: none;
+  	}
+
+  	.content p {
+  		font-size: 14px;
+  		width: 90%;
+  	}
+
+  	.bagian2 {
+  		margin: 0 30px 0 30px;
+  		height: 4850px;
+  	}
+
+  	.ilustrasi {
+  		flex-direction: column;
+  	}
+
+  	.first-icon {
+  		width: 100%;
+  		margin-bottom: 0;
+  	}
+
+  	.icon-1 {
+  		border-style: none;
+  	}
+
+  	.icon-2 {
+  		border-style: none;
+  	}
+
+  	.first-icon h3 {
+  		font-size: 16px;
+  	}
+
+  	.first-icon p {
+  		font-size: 14px;
+  	}
+
+  	.galeri h2 {
+  		padding-top: 75px;
+  		font-size: 27px;
+  	}
+
+  	.ig-pict {
+  		flex-direction: column;
+  	}
+
+  	.second-icon {
+  		width: 100%;
+  		align-items: center;
+  		justify-content: center;
+  	}
+
+  	.text {
+  		font-size: 16px;
+  	}
+
+  	.second-icon:hover {
+  		-ms-transform: none;
+    	-webkit-transform: none;
+    	transform: none;
+  	}
+
+  	.profile {
+  		margin: 0 30px 75px 30px;
+  		height: auto;
+  	}
+
+  	.anggota p {
+  		padding-bottom: 10px
+  	}
+
+  	footer {
+  		height: 100px;
+  		padding: 20px 30px;
+  		display: flex;
+  		flex-direction: column;
+  		align-items: center;
+  		justify-content: center;
+  	}
+}
