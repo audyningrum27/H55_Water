@@ -30,8 +30,6 @@ body {
 header {
 	height: 300px;
 	width: 100%;
-	background-color: rgba(162, 213, 242, 1.0);
-	color: #07689f;
 }
 
 .nav {
@@ -40,8 +38,8 @@ header {
     position: -webkit-sticky;
     position: sticky;
     background-color:rgba(162, 213, 242, 1.0);
+    color: #07689f;
     z-index: 50;
-    top: 300px;
 
 }
 
