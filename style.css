@@ -40,7 +40,6 @@ header {
     background-color:rgba(162, 213, 242, 1.0);
     color: #07689f;
     z-index: 50;
-
 }
 
 .nav span {
@@ -116,7 +115,7 @@ header {
 
 @keyframes banner {
   from {top: 0px;}
-  to {top: 45px;}
+  to {top: 25px;}
 }
 
 
@@ -253,7 +252,7 @@ header {
     padding-bottom: 50px;
     font-family: 'Sacramento', cursive;
     font-weight: normal;
-    font-size:200%;
+    font-size:250%;
 }
 
 .ig-pict {
@@ -341,9 +340,9 @@ header {
 }
 
 .anggota a:active {
-  box-shadow:none;
-  position:relative;
-  top:7px;
+    box-shadow:none;
+    position:relative;
+    top:7px;
 }
 
 .anggota a:hover {
