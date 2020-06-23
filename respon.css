@@ -2,12 +2,346 @@
 
 }
 
-@media (max-width: 1024) {
+@media (max-width: 1024px) {
+	header {
+		height: 225px;
+	}
 
+	.header-image {
+		max-height: 225px;
+	}
+
+	.nav {
+		width: 100%;
+	}
+
+  	.sticky {
+	 	position: fixed;
+	  	top: 0;
+  		width: 100%;
+	}
+
+  	.logo {
+  		margin: 3px 75px 0 75px;
+  		padding: 0 0 0 0;
+  	}
+
+  	.header-left a {
+  		padding: 0 20px;
+  	}
+
+  	.login {
+  		display: none;
+  	}
+
+  	.bagian1 {
+  		height: 1835px;
+  	}
+
+  	.banner {
+  		margin: 0 75px 0 75px;
+  		padding: -10px 0 10px 0;
+  	}
+
+  	@keyframes banner {
+  		from {top: 0;}
+  		to {top: 60px;}
+  	}
+
+  	.isi {
+  		margin: 130px 75px 100px 75px;
+  	}
+
+  	.judul {
+  		margin-top: 50px;
+  		margin-bottom: 30px
+  	}
+
+  	.perkenalan {
+  		align-items: center;
+  		justify-content: center;
+  		flex-direction: column;
+  	}
+
+  	.perkenalan img {
+  		width: 100%;
+  	}
+
+  	.perkenalan p {
+  		width:100%;
+  		line-height: 200%;
+  		padding-bottom: 40px;
+  		padding-right: inherit;
+  	}
+
+  	.catatan {
+  		line-height: 35px;
+  	}
+
+  	.contents {
+  		flex-wrap: wrap;
+  		align-content: center;
+  		justify-content: center;
+  	}
+
+  	.content {
+  		padding: 35px 15px 0 15px;
+  		width: 50%;
+  	}
+
+  	.content p {
+  		font-size: 16px;
+  		width: 80%;
+  	}
+
+  	.bagian2 {
+  		margin: 0 75px 0 75px;
+  		height: 1750px;
+  	}
+
+  	.ilustrasi {
+  		flex-wrap: wrap;
+  	}
+
+  	.first-icon {
+  		width: 100%;
+  		margin-bottom: 0;
+  	}
+
+  	.first-icon h3 {
+  		font-size: 18px;
+  	}
+
+  	.first-icon p {
+  		font-size: 16px;
+  	}
+
+  	.galeri h2 {
+  		padding: 75px 75px 50px 75px;
+  	}
+
+  	.second-icon {
+  		width: 250px;
+  		align-items: center;
+  		justify-content: center;
+  	}
+
+  	.second-icon:hover {
+  		-ms-transform: none;
+    	-webkit-transform: none;
+    	transform: none;
+  	}
+
+  	.profile {
+  		margin: 0 75px 75px 75px;
+  		height: auto;
+  	}
+
+  	.anggota {
+  		padding: 25px;
+  	}
+
+  	.anggota p {
+  		display: inline-block;
+  		width: 100%;
+  		padding-bottom: 10px
+  	}
+
+  	.nama {
+  		width: 250px;
+  	}
+
+  	footer {
+  		height: 100px;
+  		padding: 20px 30px;
+  		display: flex;
+  		flex-direction: column;
+  		align-items: center;
+  		justify-content: center;
+  	}
 }
 
-@media (max-width: 767px) {
+@media (max-width: 834px) {
+	.content-3 {
+  		border-style: none;
+  	}
 
+  	.bagian1 {
+  		height: 2000px;
+  	}
+
+  	.bagian2 {
+  		height: 2450px;
+  	}
+
+  	.profile {
+
+  	}
+
+  	.second-icon {
+  		width: 250px;
+  		padding-right: 5px;
+  		align-items: center;
+  		justify-content: center;
+  	}
+}
+
+@media (max-width: 768px) {
+	header {
+		height: 175px;
+	}
+
+	.header-image {
+		max-height: 175px;
+	}
+
+	.nav {
+		width: 100%;
+	}
+
+  	.sticky {
+	 	position: fixed;
+	  	top: 0;
+  		width: 100%;
+	}
+
+  	.logo {
+  		margin: 2px 50px 0 50px;
+  		padding: 0 0 0 0;
+  	}
+
+  	.login {
+  		display: none;
+  	}
+
+  	.bagian1 {
+  		height: 1915px;
+  	}
+
+  	.banner {
+  		margin: 0 50px 0 50px;
+  		padding: -10px 0 10px 0;
+  	}
+
+  	@keyframes banner {
+  		from {top: 0;}
+  		to {top: 60px;}
+  	}
+
+  	.isi {
+  		margin: 130px 50px 100px 50px;
+  	}
+
+  	.judul {
+  		margin-top: 50px;
+  		margin-bottom: 30px
+  	}
+
+  	.judul h2 {
+  		font-size: 40px;
+  	}
+
+  	.perkenalan {
+  		align-items: center;
+  		justify-content: center;
+  		flex-direction: column;
+  	}
+
+  	.perkenalan img {
+  		width: 100%;
+  	}
+
+  	.perkenalan p {
+  		width:100%;
+  		font-size: 18px;
+  		padding-bottom: 40px;
+  		padding-right: inherit;
+  	}
+
+  	.catatan {
+  		line-height: 35px;
+  	}
+
+  	.contents {
+  		flex-wrap: wrap;
+  	}
+
+  	.content {
+  		width: 100%;
+  	}
+
+  	.content-3 {
+  		border-style: none;
+  	}
+
+  	.content p {
+  		font-size: 16px;
+  		width: 80%;
+  	}
+
+  	.bagian2 {
+  		margin: 0 50px 0 50px;
+  		height: 2475px;
+  	}
+
+  	.ilustrasi {
+  		flex-wrap: wrap;
+  	}
+
+  	.first-icon {
+  		width: 100%;
+  		margin-bottom: 0;
+  	}
+
+  	.first-icon h3 {
+  		font-size: 18px;
+  	}
+
+  	.first-icon p {
+  		font-size: 16px;
+  	}
+
+  	.galeri h2 {
+  		padding: 75px 75px 50px 75px;
+  	}
+
+  	.second-icon {
+  		width: 250px;
+  	}
+
+  	.second-icon:hover {
+  		-ms-transform: none;
+    	-webkit-transform: none;
+    	transform: none;
+  	}
+
+  	.profile {
+  		margin: 0 50px 75px 50px;
+  		height: auto;
+  	}
+
+  	.anggota {
+  		padding: 20px;
+  	}
+
+  	.anggota p {
+  		display: inline-block;
+  		width: 75%;
+  		padding-bottom: 10px
+  	}
+
+  	.nama {
+  		width: 250px;
+  	}
+
+  	footer {
+  		height: 100px;
+  		padding: 20px 30px;
+  		display: flex;
+  		flex-direction: column;
+  		align-items: center;
+  		justify-content: center;
+  	}
 }
 
 @media (max-width: 480px) {
@@ -49,7 +383,7 @@
   	}
 
   	.bagian1 {
-  		height: 1915px;
+  		height: 2025px;
   	}
 
   	.banner {
@@ -166,8 +500,8 @@
   	}
 
   	.galeri h2 {
-  		padding-top: 75px;
-  		font-size: 27px;
+  		padding: 75px 0 50px 0;
+  		font-size: 25px;
   	}
 
   	.ig-pict {
