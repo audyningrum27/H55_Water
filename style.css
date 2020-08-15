@@ -306,6 +306,7 @@ header {
 .profile-judul h2 {
     width: 200px;
     display: inline-block;
+    padding-top: 15px;
     padding-bottom: 5px;
     border-bottom: 2px solid #a2d5f2;
     font-family: 'Sacramento', cursive;
@@ -315,7 +316,7 @@ header {
 
 .anggota {
     display: inline-block;
-    padding: 25px 50px 15px 50px;
+    padding: 25px 50px 25px 50px;
 }
 
 .anggota img {
