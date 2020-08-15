@@ -297,7 +297,7 @@ header {
 .profile {
     margin: 35px 100px 75px 100px;
     text-align: center;
-    padding: 15px;
+    padding: 0;
     border: 2px solid #ff7e67;
     border-radius: 20px;
     background-color: #f4f6f8;
